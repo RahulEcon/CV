@@ -1,0 +1,87 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%Packages to be Imported.
+\usepackage{hyperref}
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Rahul Muraleedharan}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{A2C, Tribhuvan, Shakthi Nagar 2nd Avenue}
+ \moveleft.5\hoffset\centerline{Nolambur, Chennai-600095}
+ \moveleft.5\hoffset\centerline{Mob: +91 9600046705 }
+  \moveleft.5\hoffset\centerline{Email: \href{mailto : rahul_muraleedharan@live.com}{\nolinkurl{rahul_muraleedharan@live.com}}}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE} 
+				 A position in the field of research with special 
+                interests in econometrics, data science and scientific computing. 
+ 
+
+\section{EDUCATION}
+
+				{\sl Master of Arts,} Econometrics 					\hfill Expected: 2021\\
+				University of Madras, Chennai, India \vspace{2mm}\\
+				{\sl Bachelor of Science (Hons.),}  Economics  \hfill Graduated: 2018\\             				Symbiosis School of Economics, Pune, India, \\
+                GPA: 7.13
+ 
+ 
+\section{COMPUTER \\ SKILLS} 
+				{\sl Languages:} Python, R, \LaTeX \\
+				{\sl Statistical Packages:} STATA, SPSS\\
+				{\sl Software:} Microsoft Office, Libre Office\\
+                {\sl Operating Systems:} Linux, Windows
+ 
+\section{EXPERIENCE} 
+				%Position 1
+				{\sl Economics Expert (Contract)} 		\hfill January 2020 - Present\\
+                Study.com, Online
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Worked on original articles of various economic, business and mathematical complexity  the website's \LaTeX support.
+                \item Contract period of one year.
+                \end{itemize}
+ 				%Position 2
+                {\sl Content Writer (Intern)} 					\hfill April - May 2017\\
+                Anavara Ltd, Chennai, India.
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Contributed towards development of their new website.
+                 \item Wrote original features on diseases, medical tourism and destination backgrounds.
+                 \item Helped improve search engine optimization (SEO).
+                 \end{itemize} 
+                 %Position 3
+                {\sl Research Intern} 								\hfill April - August 2016\\
+                Equals Centre for Protection of Social Justice (EqualsCPSJ)\\
+                Chennai, India.
+                  \begin{itemize} \itemsep -2pt
+                   \item Studied the prevalence of persons with disabilities (PwD) in Asia.
+                   \item Developed a database of policy measures for PwDs in Asia.
+                   \end{itemize} 
+ 
+\section{DISSERTATION \& \\PROJECTS}
+				%1.
+				\emph{"Manager-Worker Perception Asymmetry in Micro, Small and Medium Enterprises (MSME)"}\\ 
+				Dissertation requirement by Symbiosis International University for  BSc (Hons.) Economics \vspace{2mm} \\
+				\emph{"Study on the Applicability of Sustainable Practices on the city of Pune, India"}
+
+\section{LANGUAGES}
+Spoken proficiency in English, Hindi, Tamil and Malayalam.\\
+Written proficiency in English and Hindi.\\
+Elementary proficiency in French and Japanese.
+            
+ 
+
+\end{resume}
+\end{document}
+
+
+
+

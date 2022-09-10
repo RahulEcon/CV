@@ -1,0 +1,102 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%Packages to be Imported.
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{newcent}   % uses new century schoolbook postscript font
+%\usepackage{geometry}
+\setlength{\textwidth}{5.1in} % set width of text portion
+%\linespread{0.9} %changing line spacing
+\textheight= 1200 pt %Adjust this to get stuff to fit in a page
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Rahul Muraleedharan}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{A2C, Tribhuvan, Shakthi Nagar 2nd Avenue}
+ \moveleft.5\hoffset\centerline{Nolambur, Chennai-600095}
+ \moveleft.5\hoffset\centerline{Mob: +91 9600046705 }
+  \moveleft.5\hoffset\centerline{Email: \href{mailto : rahul5muraleedharan@gmail.com}{\nolinkurl{rahul5muraleedharan@gmail.com}}}
+  \moveleft.5\hoffset\centerline{\href{https://www.linkedin.com/in/rahul-muraleedharan/}{\faLinkedinSquare}}
+
+
+\begin{resume}
+\section{OBJECTIVE}
+				 Development professional with experience in building data science solutions for the impact sector.
+				 
+\section{EXPERIENCE}
+%Recent Position
+{\sl Ed-Tech Fellow}                              \hfill June 2021 - Present\\
+Pratham Education Foundation (Digital Innovations),\\
+Pune, India
+\begin{itemize} \itemsep -2pt
+	\item Oversaw the monitoring and evaluation of a randomised control trial (RCT) for the Hybrid Learning Rural program (HL Rural) implemented in Dausa, Rajasthan (Ongoing).
+	\item Developed and implemented large scale surveys across various programs. 
+	\item Provided support by sharing actionable insights to various programs and teams.
+	\item Ongoing research on data mining techniques to assess and understand data from online educational settings.
+\end{itemize}
+%Position 1
+{\sl Student Intern}                              \hfill May - July 2020\\
+Center for Study of Science, Technology and Policy (CSTEP),\\
+Bengaluru, India
+\begin{itemize} \itemsep -2pt
+	\item Contributed towards literature review on computable general equilibrium models applied in energy and climate policy analysis.
+	\item Recommended possible methodology for dis-aggregation of relevant sectors, including a frequency based map for said sectors.
+\end{itemize}
+
+%Position 2
+%{\sl Economics Expert (Contract)} 		\hfill January 2020 - Present\\
+%Study.com, Online
+%\begin{itemize}  \itemsep -2pt %reduce space between items
+%	\item Worked on original articles of various economic, business and mathematical complexity using the website's \LaTeX support.
+%\end{itemize}
+%Position 3
+{\sl Content Writer (Intern)} 					\hfill April - May 2017\\
+Anavara Ltd, Chennai, India.
+\begin{itemize}  \itemsep -2pt %reduce space between items
+	\item Contributed towards development of their new website.
+	\item Wrote original features on diseases, medical tourism and destination backgrounds.
+	%\item Helped improve search engine optimization (SEO).
+\end{itemize}
+%Position 4
+%     {\sl Research Intern} 								\hfill April - August 2016\\
+%  Equals Centre for Protection of Social Justice (EqualsCPSJ)\\
+%Chennai, India.
+%\begin{itemize} \itemsep -2pt
+% \item Studied the prevalence of persons with disabilities (PwD) in Asia.
+%\item Developed a database of policy measures for PwDs in Asia.
+%\end{itemize}				 
+
+\section{EDUCATION}
+
+				{\sl Master of Arts,} Econometrics 					\hfill Graduated: 2021\\
+				University of Madras, Chennai, India \vspace{2mm}\\
+				{\sl Bachelor of Science (Hons.),}  Economics  \hfill Graduated: 2018\\             				Symbiosis School of Economics, Pune, India.
+                
+
+\section{COMPUTER \\ SKILLS}
+				{\sl Languages:} Python, R (R-base, Tidyverse, Shiny), \LaTeX, SQL\\
+				{\sl Version Control:} Git\\
+				{\sl Software:} Microsoft Office, Microsoft Power BI\\
+                {\sl Operating Systems:} Linux, Windows
+
+\section{DISSERTATION \& \\PROJECTS}
+				%1.
+        \emph{"Estimating the determinants of choice of healthcare provider in rural India using NSS data."}\\
+				Dissertation requirement by University of Madras for  MA Econometrics. \vspace{2mm} \\
+			%	\emph{"Manager-Worker Perception Asymmetry in Micro, Small and Medium Enterprises (MSME)"}\\
+			%	Dissertation requirement by Symbiosis International University for  BSc (Hons.) Economics \\
+
+\section{LANGUAGES}
+Spoken proficiency in English, Hindi, Tamil and Malayalam.\\
+Written proficiency in English and Hindi.\\
+Elementary proficiency in French and Japanese.
+
+
+
+\end{resume}
+\end{document}
