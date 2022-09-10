@@ -8,7 +8,7 @@
 %\usepackage{geometry}
 \setlength{\textwidth}{5.1in} % set width of text portion
 %\linespread{0.9} %changing line spacing
-\textheight= 1200 pt %Adjust this to get stuff to fit in a page
+%\textheight= 1200 pt %Adjust this to get stuff to fit in a page
 \begin{document}
 
 % Center the name over the entire width of resume:
@@ -19,7 +19,7 @@
 % Again, the address lines must be centered over entire width of resume:
  \moveleft.5\hoffset\centerline{A2C, Tribhuvan, Shakthi Nagar 2nd Avenue}
  \moveleft.5\hoffset\centerline{Nolambur, Chennai-600095}
- \moveleft.5\hoffset\centerline{Mob: +91 9600046705 }
+ \moveleft.5\hoffset\centerline{Mob: --Redacted--}
   \moveleft.5\hoffset\centerline{Email: \href{mailto : rahul5muraleedharan@gmail.com}{\nolinkurl{rahul5muraleedharan@gmail.com}}}
   \moveleft.5\hoffset\centerline{\href{https://www.linkedin.com/in/rahul-muraleedharan/}{\faLinkedinSquare}}
 
@@ -29,17 +29,45 @@
 				 Development professional with experience in building data science solutions for the impact sector.
 				 
 \section{EXPERIENCE}
-%Recent Position
-{\sl Ed-Tech Fellow}                              \hfill June 2021 - Present\\
+% Recent Position
+{\sl Research Associate}                              \hfill April 2022 - Present\\
+Catalyst Management Services,\\
+Bengaluru, India
+\begin{itemize} \itemsep -2pt
+	\item Part of the AI/ML unit in the ``Evidence 4 Change'' portfolio.
+	\item Worked/Working on the following projects:
+		\begin{itemize}
+		 \item \textit{Price Forecasting Tool for Agriculture Commodities at Mandi Level}: Designed and built for \href{https://vruttiimpactcatalysts.org/vrutti/}{Vrutti}.
+			\begin{itemize}
+			\item Designed to empower Farmer Producer Organizations (FPOs) to make better decisions based on forecasts of future prices of specific commodities.
+			\item Scrapes data about daily prices and arrivals at relevant mandis from \href{https://agmarknet.gov.in/}{``Agmarknet''}.
+			\item Model designed is able to forecast using weekly prices occuring at specific mandis, and is able to predict prices for the next six weeks with an accuracy of around 85 per cent, regardless of mandi and commodity selected.
+			\item Currently being evaluated on field.
+			\end{itemize}
+
+		 \item \textit{Data Pipelines for Precision Health Waste Water Surveilance (Multi-City Initiative)} Designed for \href{https://swastihc.org}{Swasti}.
+			\begin{itemize}
+			\item Designing, building and scaling backend systems for collecting, processing and reporting data.
+			 \item Forms built and maintained using SurveyCTO.
+			 \item Data from multiple forms stored and processed on MySQL server hosted on an AWS EC2 instance.
+			 \item Scipts to ensure data quality and instantly report changes in status quo to relevant partners.
+			 \item Scripts created and scheduled to automatically send data to partners and team members to help facilitate reporting and research.
+			 \item Currently in active development.
+			\end{itemize}
+		\end{itemize}
+	\item Involved in econometric analysis and qualitative for ``Evidence 4 Change''.
+\end{itemize}
+%Position 1
+{\sl Ed-Tech Fellow}                              \hfill June 2021 - April 2022\\
 Pratham Education Foundation (Digital Innovations),\\
 Pune, India
 \begin{itemize} \itemsep -2pt
-	\item Oversaw the monitoring and evaluation of a randomised control trial (RCT) for the Hybrid Learning Rural program (HL Rural) implemented in Dausa, Rajasthan (Ongoing).
+	\item Oversaw the monitoring and evaluation of a randomised control trial (RCT) for the Hybrid Learning Rural program (HL Rural) implemented in Dausa, Rajasthan.
 	\item Developed and implemented large scale surveys across various programs. 
 	\item Provided support by sharing actionable insights to various programs and teams.
 	\item Ongoing research on data mining techniques to assess and understand data from online educational settings.
 \end{itemize}
-%Position 1
+%Position 2
 {\sl Student Intern}                              \hfill May - July 2020\\
 Center for Study of Science, Technology and Policy (CSTEP),\\
 Bengaluru, India
@@ -49,11 +77,11 @@ Bengaluru, India
 \end{itemize}
 
 %Position 2
-%{\sl Economics Expert (Contract)} 		\hfill January 2020 - Present\\
-%Study.com, Online
-%\begin{itemize}  \itemsep -2pt %reduce space between items
-%	\item Worked on original articles of various economic, business and mathematical complexity using the website's \LaTeX support.
-%\end{itemize}
+% {\sl Economics Expert (Contract)} 		\hfill January 2020 - Present\\
+% Study.com, Online
+% \begin{itemize}  \itemsep -2pt %reduce space between items
+% 	\item Worked on original articles of various economic, business and mathematical complexity using the website's \LaTeX support.
+% \end{itemize}
 %Position 3
 {\sl Content Writer (Intern)} 					\hfill April - May 2017\\
 Anavara Ltd, Chennai, India.
@@ -65,11 +93,11 @@ Anavara Ltd, Chennai, India.
 %Position 4
 %     {\sl Research Intern} 								\hfill April - August 2016\\
 %  Equals Centre for Protection of Social Justice (EqualsCPSJ)\\
-%Chennai, India.
-%\begin{itemize} \itemsep -2pt
+% Chennai, India.
+% \begin{itemize} \itemsep -2pt
 % \item Studied the prevalence of persons with disabilities (PwD) in Asia.
-%\item Developed a database of policy measures for PwDs in Asia.
-%\end{itemize}				 
+% \item Developed a database of policy measures for PwDs in Asia.
+% \end{itemize}
 
 \section{EDUCATION}
 
@@ -79,22 +107,28 @@ Anavara Ltd, Chennai, India.
                 
 
 \section{COMPUTER \\ SKILLS}
-				{\sl Languages:} Python, R (R-base, Tidyverse, Shiny), \LaTeX, SQL\\
+				{\sl Languages:}
+				\begin{itemize}
+				 \item Python (Base, statsmodels, selenium, beautifulsoup, pandas, numpy)
+				 \item R (R-base, Tidyverse, Tidymodels, R-Shiny)
+				 \item SQL (Postresql,MySQL,Microsoft SQL Server)
+				 \item \LaTeX
+				\end{itemize}
 				{\sl Version Control:} Git\\
-				{\sl Software:} Microsoft Office, Microsoft Power BI\\
-                {\sl Operating Systems:} Linux, Windows
+				{\sl Software:} Microsoft Office, Microsoft Power BI, Tableau\\
+				{\sl Others:} SurveyCTO\\
 
 \section{DISSERTATION \& \\PROJECTS}
 				%1.
         \emph{"Estimating the determinants of choice of healthcare provider in rural India using NSS data."}\\
 				Dissertation requirement by University of Madras for  MA Econometrics. \vspace{2mm} \\
-			%	\emph{"Manager-Worker Perception Asymmetry in Micro, Small and Medium Enterprises (MSME)"}\\
-			%	Dissertation requirement by Symbiosis International University for  BSc (Hons.) Economics \\
+				\emph{"Manager-Worker Perception Asymmetry in Micro, Small and Medium Enterprises (MSME)"}\\
+				Dissertation requirement by Symbiosis International University for  BSc (Hons.) Economics \\
 
 \section{LANGUAGES}
 Spoken proficiency in English, Hindi, Tamil and Malayalam.\\
 Written proficiency in English and Hindi.\\
-Elementary proficiency in French and Japanese.
+Elementary proficiency in Kannada, French and Japanese.
 
 
 
